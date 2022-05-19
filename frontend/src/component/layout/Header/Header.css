@@ -1,0 +1,141 @@
+.speedDial {
+    position: fixed;
+    right: 3vmax;
+    top: 3vmax;
+}
+
+.speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+
+.navbar > button {
+    text-transform: lowercase;
+}
+.navbar {
+    /* position: relative;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    /* background: white; */
+    /* display: flex; */
+    /* flex-direction: row; */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solid rgb(255, 255, 255);
+    -ms-box-orient: vertical;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    /* -webkit-flex-wrap: wrap;
+    flex-wrap: wrap; */
+}
+.MuiButton-label {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    text-transform: none;
+}
+
+.MuiButton-root {
+    /* color: rgba(0, 0, 0, 0.87); */
+    padding: 6px 16px;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+
+/* .navbar> .logoutli{
+  position: absolute;
+  right: 0;
+  justify-content: end;
+}
+.navbar> .logoutli > button{
+  position: absolute;
+  right:0
+  
+}
+
+.navbar> .logoutli > .icon{
+  position: absolute;
+  
+} */
+
+.navbar>li {
+    list-style-type: none;
+    /* background: white; */
+    height: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar>li>select {
+    /* color: rgba(0, 0, 0, 0.87); */
+    border: 0;
+    outline-color: white;
+    font-size: 20px !important;
+}
+
+.navbar>li>option {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .navbar>li {
+        list-style-type: none;
+        height: 36px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .MuiButton-root {
+        /* color: rgba(0, 0, 0, 0.87); */
+        font-size: 12px !important;
+        font-weight: bold !important;
+    }
+    .MuiButton-label {
+        width: 100%;
+        display: inherit;
+        align-items: inherit;
+        justify-content: inherit;
+        text-transform: none;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .navbar {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .navbar>li>.icon {
+        width: 20px;
+    }
+    .navbar>li>.icon {
+        padding: 6px 0px;
+    }
+    .MuiButton-root {
+        /* color: rgba(0, 0, 0, 0.87); */
+        padding: 6px 10px !important;
+        font-size: 12px !important;
+        font-weight: bold !important;
+        min-width: 30px!important;
+    }
+}

@@ -1,0 +1,598 @@
+.banner {
+    /* background-image: url("../../images/img-3.f094c578.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-basis: 50%;
+     -webkit-filter: blur(1px); 
+    box-shadow: inset 0px 0px 10px 10px #ffffff;
+    mask-image:linear-gradient(to bottom,rgb(145, 140, 140) ,rgba(0,0,0,0)); */
+    background-image: url("../../images/img-3.f094c578.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner1 {
+    display: flex;
+    background-image: url("../../images/img-3.f094c578.jpg");
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-basis: 50%;
+    background-color: #d0d8db;
+    filter: blur(45px);
+}
+
+.banner1>h1 {
+    margin: 5vmax;
+    font: 800 3.5vmax "Roboto";
+}
+
+.banner1>p {
+    font: 600 2.9vmax "Lucida Sans";
+    top: 100px;
+    margin-top: 100px;
+    color: black;
+}
+
+.banner1>teachercredit {
+    position: absolute;
+    /* font: 500 2.0vmax "Lucida Sans"; */
+    font-weight: 500;
+    font-family: "Roboto";
+    top: 10px;
+    /* right: 100px; */
+    animation: blinker 2s linear infinite;
+    color: black;
+}
+
+.content {
+    top: 200px;
+    position: absolute;
+    text-align: center;
+    left: 450px;
+    z-index: 1;
+}
+
+.content>p {
+    font-family: Pacifico, cursive;
+    /* background: -webkit-linear-gradient(#065749,#065749);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+    color: #ffffff;
+    font-size: 75px;
+}
+
+.content>h1 {
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+}
+
+.bground {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+}
+
+fieldset {
+    height: 55px;
+    color: rgb(151, 144, 144);
+}
+
+.banner>h1 {
+    margin: 5vmax;
+    font: 800 3.5vmax "Roboto";
+}
+
+.banner>p {
+    margin-top: 50px;
+    font: 600 1.9vmax "Roboto";
+}
+
+.banner>a>button {
+    margin-bottom: 5vmax;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0;
+    padding: 1vmax;
+    transition: all 0.5s;
+    width: 9vmax;
+    font: 500 1vmax "Roboto";
+}
+
+.banner>a>button:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.banner::after {
+    content: "";
+    width: 100vw;
+    height: 100vmin;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    clip-path: polygon(100% 100%, 100% 100%, 100% 100%);
+    max-width: 100%;
+}
+
+div>div>div>p>button {
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    background-color: #065749;
+    font: 500 0.7vmax "Roboto";
+    border-radius: 20px;
+    padding: 0.5vmax 1vmax;
+    margin: 1vmax;
+    outline: none;
+}
+
+.homeHeading {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 1.4vmax;
+    border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+    width: 20vmax;
+    padding: 1vmax;
+    margin: 2vmax auto;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 2vmax auto;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.productCard {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    /* margin: 1vmax; */
+    transition: all 0.5s;
+    /* padding-bottom: 0.5vmax; */
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.productCard>img {
+    width: 10%;
+    height: 10%;
+}
+
+.productCard>div {
+    margin: 0.5vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 31px;
+}
+
+.productCardSpan {
+    margin: 0.5vmax;
+    font: 300 0.7vmax "Roboto";
+}
+
+.productCard>p {
+    font-family: "Roboto";
+    font-size: 1.2vmax;
+    margin: 1vmax 0.5vmax;
+    margin-bottom: 0;
+}
+
+.productCard>span {
+    margin: 0.5vmax;
+    color: #065749;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1vmax;
+}
+
+.productCard:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+    background-color: rgb(242, 243, 243);
+    transform: translateY(-1vmax);
+}
+
+.productCardDesc {
+    margin: 0.5vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-items: center;
+    flex-basis: 85%;
+}
+
+.productname {
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.productname>P {
+    font-size: 20px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    /* font-size: larger; */
+    color: rgb(112, 110, 110);
+    inline-size: 180px;
+    overflow-wrap: break-word;
+}
+
+.productCardSpan {
+    display: flex;
+    flex-basis: 15%;
+    justify-content: center;
+}
+
+.size {
+    display: flex;
+    flex-basis: 35%;
+    justify-content: center;
+}
+
+.category {
+    display: flex;
+    flex-basis: 30%;
+    justify-content: center;
+}
+
+.stock {
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+}
+
+.addshopcart {
+    display: flex;
+    flex-basis: 15%;
+    justify-content: center;
+    size: 20px;
+}
+
+.addshopcart>button {
+    text-align: center;
+}
+
+.size>select {
+    color: rgb(112, 110, 110);
+    padding: 1vmax 2vmax;
+    padding-right: 1vmax;
+    width: 60%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font-size: 1.2vmax;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    outline: none;
+}
+
+.category>select {
+    color: rgb(112, 110, 110);
+    padding: 1vmax;
+    /* padding-right: 1vmax; */
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font-size: 1.2vmax;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    outline: none;
+}
+
+.addshopcart>button:last-child {
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    background-color: #065749;
+    font: 500 15px "Roboto";
+    border-radius: 20px;
+    padding: 0.5vmax 2vmax;
+    margin: 1vmax;
+    outline: none;
+}
+
+.addshopcart>button:last-child:hover {
+    background-color: rgb(214, 84, 61);
+}
+
+.category-link {
+    list-style-type: none;
+    /* background: white; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* font: 400 1.2vmax "Roboto" !important; */
+    cursor: pointer;
+}
+
+.MuiTypography-body1 {
+    font-size: 20px !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    font-weight: 600 !important;
+}
+
+.filterBoxhome {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    width: 10vmax;
+    /* position: absolute; */
+    top: 10vmax;
+    left: 4vmax;
+    width: 100%;
+    justify-content: center;
+}
+
+.filCategorieshome {
+    flex-basis: 75%;
+    font-size: 1.5vmax;
+}
+
+@media screen and (max-width: 800px) {
+    fieldset {
+        height: 70px;
+        color: rgb(151, 144, 144);
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .banner>h1 {
+        margin: 2vmax;
+        font: 800 20px "Roboto";
+        color: rgb(255, 255, 255);
+    }
+    .MuiTypography-body1 {
+        font-size: 18px !important;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.00938em;
+        font-weight: 600 !important;
+    }
+    .addshopcart>button:last-child {
+        border: none;
+        cursor: pointer;
+        color: white;
+        transition: all 0.5s;
+        background-color: #065749;
+        font: 500 15px "Roboto";
+        border-radius: 20px;
+        padding: 5px 10px 5px;
+        margin: 1vmax;
+        outline: none;
+    }
+    .banner>p {
+        font: 800 15px "Roboto";
+        color: rgb(255, 254, 254);
+    }
+    .addshopcart>button {
+        text-align: center;
+        line-height: 30px !important;
+    }
+    .shoppingCartButton {
+        line-height: -20px !important;
+    }
+    .homeHeading {
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20px;
+        border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+        width: 20vmax;
+        padding: 1vmax;
+        margin: 2vmax auto;
+        color: rgb(0, 0, 0, 0.7);
+    }
+    .filterBoxhome {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        top: 10vmax;
+        left: 4vmax;
+        width: 100%;
+        justify-content: center;
+    }
+    .productname>P {
+        font-size: 20px;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        /* font-size: larger; */
+        color: rgb(112, 110, 110);
+        inline-size: 180px;
+        overflow-wrap: break-word;
+    }
+    .stock {
+        padding-top: 1.5vmax;
+        padding-bottom: 1vmax;
+        font-family: "Roboto";
+    }
+    .category {
+        padding-top: 0.1vmax;
+        padding-bottom: 1.5vmax;
+    }
+    .category>select {
+        color: rgb(112, 110, 110);
+        padding: 1vmax;
+        padding-bottom: 20;
+        width: 80%;
+        box-sizing: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.267);
+        border-radius: 4px;
+        font: 300 15px "Roboto";
+        justify-content: center;
+        outline: none;
+    }
+    .size>select {
+        color: rgb(112, 110, 110);
+        padding: 1vmax 2vmax;
+        padding-right: 1vmax;
+        width: 80%;
+        box-sizing: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.267);
+        border-radius: 4px;
+        font: 500 15px "Roboto";
+        outline: none;
+    }
+    .productCard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .productCard>img {
+        width: 40%;
+        height: 40%;
+        /* display: flex;
+      justify-content: center;
+      align-items: center; */
+        /* top: 50%; */
+    }
+    .productCard>p {
+        /* font-size: 1.7vmax; */
+        inline-size: 150px;
+        overflow-wrap: break-word;
+    }
+    .productCard>div {
+        margin: 0vmax;
+        display: block;
+    }
+    .productCard>span {
+        font-size: 15px;
+    }
+    .productCard>div>span {
+        margin: 0 0.5vmax;
+        font: 300 15px "Roboto";
+    }
+}
+
+.searchbar>div {
+    position: absolute;
+}
+
+.searchBoxbar {
+    width: 100vw;
+    height: 120px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0%;
+    left: 0;
+}
+
+.searchBoxbar>input[type="text"] {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.274);
+    background-color: white;
+    border: none;
+    color: rgba(0, 0, 0, 0.637);
+    padding: 1vmax 2vmax;
+    width: 50%;
+    outline: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font: 300 15px "Roboto";
+    box-sizing: border-box;
+    height: 37%;
+    font-size: large;
+}
+
+.searchBoxbar>input[type="submit"] {
+    height: 50px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #006554;
+    border: none;
+    padding: 1vmax;
+    width: 100px;
+    font: 300 15px "Roboto";
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    line-height: 10px;
+}
+
+.searchBoxbar>input[type="submit"]:hover {
+    background-color: #065749
+}
+
+@media screen and (max-width: 870px) {
+    .productname>P {
+        font-size: 20px;
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        /* font-size: larger; */
+        color: rgb(112, 110, 110);
+        inline-size: 180px;
+        overflow-wrap: break-word;
+    }
+    .productCardSpan {
+        display: flex;
+        flex-basis: 15%;
+        justify-content: center;
+    }
+}
+
+.searchBoxbar>input[type="submit"] {
+    line-height: 10px;
+    height: 45px;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #006554;
+    border: none;
+    padding: 1vmax;
+    width: 100px;
+    font: 300 15px "Roboto";
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+
+.searchBoxbar>input[type="submit"]:hover {
+    background-color: #065749
+}
+
+@media screen and (max-width: 800px) {
+    /* .searchBoxbar>input[type="text"] {
+        width: 100%;
+        font: 300 15px "Roboto";
+        height: 10%;
+    }
+    .searchBoxbar>input[type="submit"] {
+        height: 10%;
+        width: 30%;
+        font: 300 15px "Roboto";
+    } */
+}

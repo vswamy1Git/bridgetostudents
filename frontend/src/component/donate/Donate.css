@@ -1,0 +1,98 @@
+
+
+/* .homeHeading {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.4vmax;
+  border-bottom: 1px solid rgba(21, 21, 21, 0.5);
+  width: 20vmax;
+  padding: 1vmax;
+  margin: 5vmax auto;
+  color: rgb(0, 0, 0, 0.7);
+} */
+
+
+
+
+@media screen and (max-width: 600px) {
+ 
+}
+
+
+.react-multi-carousel-list {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 500px;
+  position: relative;
+  
+}
+.div1{
+
+height:450px;
+filter: blur(4px);
+}
+/* .div1 img {
+  background-size: cover;
+  height:100%;
+  width:100%;
+  
+} */
+.div2{
+  
+  height:450px;  
+  filter: blur(4px);
+}
+.div2 img{
+  background-size: cover;
+  height:100%;
+  width:100%;
+}
+.div3{
+  border:2px solid rgb(57, 179, 118);
+  height:250px;
+  background-color: rgba(206, 81, 64, 0.9);
+  filter: blur(4px);
+}
+.div4{
+  border:2px solid rgb(201, 27, 79);
+  height:250px;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("../../images/sports5.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  height:45%;
+  padding: 20px;
+  text-align: center;
+}
+
+.info{
+  color:rgb(221, 59, 59)
+}

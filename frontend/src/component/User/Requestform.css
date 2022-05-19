@@ -1,0 +1,240 @@
+.RequestContainer {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    position: fixed;
+    top: 0%;
+    left: 0;
+}
+
+.RequestBox {
+    background-color: white;
+    width: 45vw;
+    height: 90vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Request_toggle {
+    display: flex;
+    height: 3vmax;
+}
+
+.Request_toggle>p {
+    color: rgba(0, 0, 0, 0.678);
+    font: 300 1vmax "Roboto";
+    transition: all 0.5s;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.Request_toggle>p:hover {
+    color: #065749;
+}
+
+.RequestBox>div>button {
+    background-color: #065749;
+    height: 3px;
+    width: 50%;
+    border: none;
+    transition: all 0.5s;
+}
+
+.RequestForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 70%;
+    transition: all 0.5s;
+}
+
+.RequestForm>div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.RequestForm>div>input {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax "Roboto";
+    outline: none;
+}
+
+.RequestForm>div>svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.RequestForm>a {
+    color: rgba(0, 0, 0, 0.651);
+    text-decoration: none;
+    align-self: flex-end;
+    transition: all 0.5s;
+    font: 500 0.8vmax "Gill Sans";
+}
+
+.RequestForm>a:hover {
+    color: black;
+}
+
+#registerImage>img {
+    width: 3vmax;
+    border-radius: 100%;
+}
+
+.RequestBtn {
+    border: none;
+    background-color: #065749;
+    color: white;
+    font: 300 0.9vmax "Roboto";
+    width: 100%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+
+.RequestBtn:hover {
+    background-color: rgb(179, 66, 46);
+}
+
+@media screen and (max-width: 600px) {
+    .RequestContainer {
+        background-color: white;
+    }
+    .RequestBox {
+        width: 100vw;
+        height: 95vh;
+    }
+    .Request_toggle {
+        height: 5vmax;
+    }
+    .Request_toggle>p {
+        font: 300 1.5vmax "Roboto";
+    }
+    .RequestForm {
+        padding: 5vmax;
+    }
+    .RequestForm>div>input {
+        padding: 2.5vmax 5vmax;
+        font: 300 1.7vmax "Roboto";
+    }
+    .RequestForm>div>svg {
+        font-size: 2.8vmax;
+    }
+    .RequestForm>a {
+        font: 500 1.8vmax "Gill Sans";
+    }
+    .RequestBtn {
+        font: 300 1.9vmax "Roboto";
+        padding: 1.8vmax;
+    }
+}
+
+
+/* age dropdown menu */
+
+.RequestForm>div>div>select {
+    /* margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: Roboto, sans-serif;
+    outline: 0;
+    background: #ffff;
+    color: rgb(112, 110, 110);
+    border: 1px solid rgb(112, 110, 110);   
+    border-radius: 5px;
+    height: 100%; */
+    color: rgb(112, 110, 110);
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax "Roboto";
+    outline: none;
+}
+
+.genderage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gender {
+    flex-basis: 50%;
+}
+
+.age {
+    flex-basis: 50%;
+}
+
+.age>input {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax "Roboto";
+    outline: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.additems input {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax "Roboto";
+    outline: none;
+}
+
+.additems {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        display: flex;
+        flex-direction: row;
+    }
+    .box>input:nth-child(1) {
+        margin-right: 5px;
+    }
+    .box>input:nth-child(2) {
+        margin-right: 5px;
+    }
+}

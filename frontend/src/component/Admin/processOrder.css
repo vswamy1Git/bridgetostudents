@@ -1,0 +1,73 @@
+.updateOrderForm {
+    margin: 5vmax 0;
+    padding: 3vmax;
+    background-color: white;
+}
+
+.updateOrderForm>div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.updateOrderForm>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.updateOrderForm>div>select {
+    padding: 1vmax 4vmax;
+    margin: 2rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 15px "Roboto";
+    outline: none;
+}
+
+.updateOrderForm>div>svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.printComponent {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    font: 600 1.1vmax "Roboto";
+    margin-bottom: 20px;
+}
+
+.printComponent>p {
+    margin-left: 20px;
+    margin-top: 2.5px;
+}
+
+.printComponent:hover {
+    color: #065749;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+    .updateOrderForm>img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .updateOrderForm {
+        padding: 5vmax;
+    }
+    .updateOrderForm>div>select {
+        padding: 2.5vmax 5vmax;
+        font: 300 1.7vmax "Roboto";
+    }
+    .updateOrderForm>div>svg {
+        font-size: 2.8vmax;
+    }
+}
