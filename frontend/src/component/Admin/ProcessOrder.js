@@ -180,7 +180,7 @@ const ProcessOrder = ({ history, match }) => {
                   onSubmit={updateOrderSubmitHandler}
                 >
                     <hr></hr>
-                  <h1>Order Risk Estimation</h1>
+                  {/* <h1>Order Risk Estimation</h1> */}
                   <img src={"https://i.ibb.co/qdVNr6f/LOCKERROOM345-2.png"} alt={"Risk"} />
                   <br></br>
                   <hr></hr>

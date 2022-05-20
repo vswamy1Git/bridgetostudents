@@ -11,7 +11,7 @@
 }
 
 .aboutSectionContainer>img {
-    width: 100%;
+    width: 70%;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -105,8 +105,18 @@
 .instagramSvgIcon {
     color: rgb(144, 81, 202);
 }
+.header>p {
+    font-family: "Roboto";
+    font-size: 1.5vmax;
+    color: rgb(99, 96, 96);
+}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 820px) {
+    .aboutSectionContainer>img {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .aboutSectionContainer>div {
         display: block;
     }
