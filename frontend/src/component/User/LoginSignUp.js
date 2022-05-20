@@ -116,7 +116,7 @@ const LoginSignUp = ({ history, location }) => {
               <h3>WELCOME  <br></br>
               <h2>TO</h2></h3>
             
-              <img src={lockerroomlogo} alt="LockerRoom Logo" />
+              <img src={"https://i.ibb.co/715HJtb/logo.png"} alt={"logo"}/>
             </div>
             <div className="right">
             <div className="LoginSignUpBox">
@@ -208,7 +208,7 @@ const LoginSignUp = ({ history, location }) => {
            
           </div>
           <div className="newfooter">
-          <p>&copy; All rights reserved to Locker Room 345 </p>
+          <p>&copy; All rights reserved to Bridge to Students </p>
           </div>
         </Fragment>
       )}

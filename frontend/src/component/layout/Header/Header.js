@@ -148,7 +148,7 @@ const Header = ({}) => {
        {user && (user.role === "user" || user.role === "admin" || user.role === "volunteer") && (
         <li>
           <HelpIcon className="icon"/>
-          <Button onClick={helpuse}>How To Use</Button>
+          <Button onClick={helpuse}>About Us</Button>
         </li>
       )}
       {user && user.role === "user" && (

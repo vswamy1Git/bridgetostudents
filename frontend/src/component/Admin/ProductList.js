@@ -280,7 +280,7 @@ const ProductList = ({ history }) => {
         {/* <SideBar /> */}
         <div className="productListContainer">
           <h1 id="productListHeading">ALL PRODUCTS</h1>
-          <img src={"https://i.ibb.co/YXdRhb2/Number-in-stock-01.png"} alt={"Bar"} />
+         <center> <img src={"https://i.ibb.co/YXdRhb2/Number-in-stock-01.png"} alt={"Bar"} /></center> 
 
           <DataGrid
             rows={rows}

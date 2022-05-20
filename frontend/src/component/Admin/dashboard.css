@@ -5,6 +5,7 @@
     grid-template-columns: 0.5fr 8fr;
     position: absolute;
 }
+
 .dashboardSummary>img {
     display: flex;
     margin-left: 0;
@@ -16,8 +17,9 @@
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
-    width: 80%;
+    width: 50%;
 }
+
 .dashboardSummary>hr {
     color: rgb(71, 63, 68);
     width: 80%;
@@ -105,7 +107,20 @@
     margin: auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+    .dashboardSummary>img {
+        display: flex;
+        margin-left: 0;
+        /* align-items: start; */
+        /* margin-right: auto; */
+        padding-top: 1.5%;
+        /* width: 80%;
+        height: 80%; */
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0;
+        width: 80%;
+    }
     .dashboard {
         grid-template-columns: 1fr;
     }
@@ -122,13 +137,13 @@
     }
     .dashboardSummaryBox2>a {
         color: rgb(0, 0, 0);
-        font: 300 0.8rem "Roboto" !important;
+        font: 300 1.5rem "Roboto" !important;
         text-align: center;
         background-color: rgb(255, 233, 174);
         text-decoration: none;
         padding: 1.5rem;
-        width: 4vmax !important;
-        height: 4vmax !important;
+        width: 7vmax !important;
+        height: 7vmax !important;
         margin: 2rem;
         border-radius: 100%;
         display: flex;
