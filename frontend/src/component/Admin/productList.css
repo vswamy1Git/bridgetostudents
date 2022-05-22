@@ -27,7 +27,7 @@
 }
 
 #productListHeading {
-    font: 400 2rem "Roboto";
+    font: 500 1.1vmax "Roboto" !important;
     padding: 0.5vmax;
     box-sizing: border-box;
     color: rgb(255, 255, 255);
@@ -69,11 +69,33 @@
     color: rgb(236, 30, 30);
 }
 
+.MuiDataGrid-columnHeader {
+    background-color: #065749;
+    padding: 1vmax !important;
+    border: 1px solid white;
+}
+
+.MuiDataGrid-columnHeader div {
+    color: rgb(255, 255, 255);
+    font: 500 1.1vmax "Roboto" !important;
+}
+
+.MuiDataGrid-iconSeparator {
+    display: none !important;
+    color: rgb(255, 255, 255);
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell--textRight {
+    text-align: center !important;
+}
+
 .MuiDataGrid-columnHeader div {
     color: rgb(255, 255, 255);
     column-width: 10px;
 }
 
+
+/* 
 .MuiDataGrid-root .MuiDataGrid-cell--textLeft {
     text-align: center !important;
 }
@@ -97,7 +119,7 @@
 .MuiDataGrid-columnHeader div {
     color: rgb(255, 255, 255);
     font: 500 20px "Roboto" !important;
-}
+} */
 
 .MuiDataGrid-iconSeparator {
     display: none !important;

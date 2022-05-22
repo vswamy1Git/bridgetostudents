@@ -12,21 +12,21 @@ const { user } = useSelector((state) => state.user);
     //  <ReactPlayer url='https://youtu.be/2LFjBufoBz8' />
     // </div>
     <div className="aboutSectionContainer">
-       {/* <div className="player-wrapper">
-      <ReactPlayer
-        className="react-player"
-        url= {user && user.role=="user" ? "https://www.youtube.com/watch?v=V7Zy23qiQOk" : "https://www.youtube.com/watch?v=E5QQME6si1Q"}
-        playing= "false"
-        playIcon     
-        controls="true"  
-        config={{
-            youtube: {
-              playerVars: { showinfo: 1 }
-            }          
-          }}
-      />
-      
-    </div> */}
+          {/* <div className="player-wrapper">
+          <ReactPlayer
+            className="react-player"
+            url= {user && user.role=="user" ? "https://www.youtube.com/watch?v=V7Zy23qiQOk" : "https://www.youtube.com/watch?v=E5QQME6si1Q"}
+            playing= "false"
+            playIcon     
+            controls="true"  
+            config={{
+                youtube: {
+                  playerVars: { showinfo: 1 }
+                }          
+              }}
+          />
+          
+              </div> */}
               <img src={"https://i.ibb.co/715HJtb/logo.png"} alt={"logo"}/>
 
         <h1>About Us</h1>
@@ -47,6 +47,17 @@ const { user } = useSelector((state) => state.user);
         <div>
           {/* <image src={dicksmission} alt="" /> */}
         </div>
+        {/* <div className="devby"> */}
+
+          <h1>Developed By</h1>
+          <ul className="devby">
+            <li>Taima El Frieh</li>
+            <li>Nieqing Cao</li>
+            <li>Vignesh Swamy</li>
+            <li>Srimadhaven Thirumurthy</li>
+          </ul>
+        {/* </div> */}
+
     </div>
    
   );
