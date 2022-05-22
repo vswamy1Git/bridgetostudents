@@ -52,10 +52,10 @@
     transition: all 0.5s;
 }
 
-.MuiDataGrid-root .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--withRenderer,
+/* .MuiDataGrid-root .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--withRenderer,
 .MuiDataGrid-root .MuiDataGrid-cell--textLeft.MuiDataGrid-cell--editing {
     justify-content: center !important;
-}
+} */
 
 .productListTable a:hover {
     color: #065749;
@@ -67,6 +67,15 @@
 
 .productListTable button:hover {
     color: rgb(236, 30, 30);
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell--textRight.MuiDataGrid-cell--withRenderer,
+.MuiDataGrid-root .MuiDataGrid-cell--textRight.MuiDataGrid-cell--editing {
+    justify-content: center !important;
+}
+
+.myOrdersTable a:hover {
+    color: #065749;
 }
 
 .MuiDataGrid-columnHeader {
@@ -89,10 +98,6 @@
     text-align: center !important;
 }
 
-.MuiDataGrid-columnHeader div {
-    color: rgb(255, 255, 255);
-    column-width: 10px;
-}
 
 
 /* 
@@ -127,14 +132,14 @@
 }
 
 
-/* .MuiDataGrid-root .MuiDataGrid-cell {
+.MuiDataGrid-root .MuiDataGrid-cell {
   display: block;
   overflow: hidden;
   white-space: nowrap;
   border-bottom: 1px solid rgba(224, 224, 224, 1);
   text-overflow: ellipsis;
 
-} */
+}
 
 @media screen and (max-width: 900px) {
     .productListContainer>center>img {
