@@ -1,4 +1,4 @@
-.newProductContainer1 {
+.newProductContainer {
     width: 100%;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
@@ -9,7 +9,7 @@
     position: absolute;
 }
 
-.newProductContainer1>img {
+.newProductContainer>img {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -17,7 +17,7 @@
     width: 100%;
 }
 
-.newProductContainer1 h1 {
+.newProductContainer h1 {
     color: rgba(0, 0, 0, 0.733);
     font: 300 2rem "Roboto";
     text-align: center;
@@ -171,7 +171,7 @@
         display: flex;
         flex-direction: column;
     }
-    .newProductContainer1 {
+    .newProductContainer {
         background-color: rgb(255, 255, 255);
     }
     .createProductForm {

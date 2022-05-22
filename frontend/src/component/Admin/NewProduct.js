@@ -123,7 +123,7 @@ const NewProduct = ({ history }) => {
       <MetaData title="Create Product" />
       <div className="dashboard">
         {/* <SideBar /> */}
-        <div className="newProductContainer1">
+        <div className="newProductContainer">
         {/* <img src={"https://i.ibb.co/6Zv0kF9/bar.png"} alt={"Bar"} /> */}
 
           <form
